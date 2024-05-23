@@ -5,6 +5,8 @@
 #
 #
 
+#Dockerfile에서 make all 실행됨
+
 PROJECT_NAME             := sdcore
 DOCKER_VERSION           ?= $(shell cat ./VERSION)
 
